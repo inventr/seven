@@ -1,0 +1,49 @@
+@media(max-width:768px){
+
+  .owl-item{ padding: 0px!important; }
+
+  .item{ padding: 0px!important; }
+
+  .items-fondo{ left: 0px!important;  }
+
+  .img-fondo{
+    margin-top: 26%;
+    height: initial!important;
+  }
+
+  .texto-fondo{ font-size: 1em!important; }
+
+  .boton-fondo{
+    left: 25%;
+    font-size: 11px;
+  }
+
+  .box-contact{
+    position: static!important;
+    width: 100%!important;
+  }
+
+    .desaparecer{ display: none; }
+
+    .aparecer{ display: inherit!important; }
+
+    .item{ padding: 0px; }
+
+    .back{ background-image: inherit!important; }
+
+    .post-contact{ flex-wrap: wrap!important; }
+
+    .owl-item{
+      overflow: hidden;
+      padding: 0px 2em;
+    }
+
+    .in-fondo{
+      font-size: 1.5em!important;
+      width: 100%!important;
+      line-height: 1.3;
+    }
+
+    .h2-contact{ line-height: 1.1!important; }
+
+}

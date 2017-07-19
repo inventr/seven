@@ -1,0 +1,79 @@
+.l0{border: solid 1px $c0;}
+.l1{border: solid 1px $c1;}
+.l2{border: solid 1px $c2;}
+.l3{border: solid 1px $c3;}
+.l4{border: solid 1px $c4;}
+.l5{border: solid 1px $c5;}
+.l6{border: solid 1px $c6;}
+.l7{border: solid 1px $c7;}
+.l8{border: solid 1px $c8;}
+
+.p0{color: $c0;}
+.p1{color: $c1;}
+.p2{color: $c2;}
+.p3{color: $c3;}
+.p4{color: $c4;}
+.p5{color: $c5;}
+.p6{color: $c6;}
+.p7{color: $c7;}
+.p8{color: $c8;}
+
+.inventory-f{background-image: url("../img/productos/inventory-f.png");}
+.payroll-f{background-image: url("../img/productos/payroll-f.png");}
+.accounting-f{background-image: url("../img/productos/accouting-f.png");}
+.fixed-f{background-image: url("../img/productos/fixed-f.png");}
+.front-f{background-image: url("../img/productos/front-f.png");}
+.management-f{background-image: url("../img/productos/management-f.png");}
+.online-f{background-image: url("../img/productos/online-f.png");}
+.point-f{background-image: url("../img/productos/point-f.png");}
+//.f8{background-image: url("../img/productos/f9.png");}
+
+.oval{
+  position: relative;
+  left: 36%;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.log{ position: relative; top: 5px;left: 7px;}
+
+.img-center{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.back{
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.p-change{
+  opacity: 0.9;
+  @include textos(1em,normal,$blanco2,1.44);
+  margin-top: 10px;
+}
+
+.p-change2{
+  @extend .p-change;
+  margin-top: 1.5em!important;
+}
+
+.h3-change{
+  @include textos(2em,normal!important,$h3,1.44);
+  color: #464646!important;
+  opacity: .6;
+}
+
+.p-avatar{
+  @include textos(em(14px),normal,#838181,initial);
+  font-family: Helvetica;
+  font-style: oblique;
+}
+
+.title-avatar{
+  @include textos(em(18px),normal,#393838,initial);
+}

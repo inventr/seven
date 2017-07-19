@@ -1,0 +1,59 @@
+
+.pre-contact{
+  background-image: linear-gradient(to bottom, #ffffff, #e21b1e 49%, #850608);
+  & > .column > h2 {
+    @include textos(em(40px),600,$blanco,initial);
+    padding-top: 20%;
+  }
+  & > .column > p {
+    @include textos(em(14px),normal,$blanco,1.07);
+    opacity: 0.9;
+    width: 80%;
+  }
+}
+
+.input:focus{ border-color: $rojo; }
+
+.input{ height: 3em;}
+
+.box-contact{
+  position: absolute;
+  height: 495px;
+  left: 50%;
+  min-width: 260px!important;
+  width: 46%;
+  background-color: $blanco;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 23px;
+  padding-left: 5%;
+  padding-top: 1em;
+  &> form >.field{
+    width: 90%;
+  }
+  &> form >button,textarea{
+    width: 90%;
+    height: em(48px);
+    margin-top: 1em!important;
+  }
+}
+
+.boton{
+  background-color: #e41b1e;
+  border: 0px;
+  color: $blanco;
+  font-size: em(18px);
+  font-weight: bold;
+  margin-top: 0px!important;
+  cursor: pointer;
+}
+
+.post-contact{
+  display: flex;
+  padding: 2em 0px;
+}
+
+.post-contact-title{
+  margin-left: 1em;
+  color: #595656;
+  opacity: .7;
+}

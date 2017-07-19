@@ -1,0 +1,87 @@
+.flex-end{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.current{
+  background-color: $rojo;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  & > a{
+    color: $blanco!important;
+  }
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mas{
+  color: #515151;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.boton-products{
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #c92010;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 100px;
+}
+
+.content-sub-title{
+  color: $h3!important;
+  font-size: em(30px)!important;
+}
+
+.content-title{
+  color: #5c5b5b!important;
+  font-size: em(36px)!important;
+  font-weight: 600;
+}
+
+.function{
+  & > a{
+    font-size: inherit;
+  }
+}
+
+.casos-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.casos{
+  & > a{
+    @include textos(em(25px),300,#a2a1a1,initial);
+    letter-spacing: 0.1px;
+  }
+}
+
+.active {
+  & > a{
+    color: $rojo!important;
+  }
+}
+
+.casos-item{
+  & > p{
+    text-align: center;
+  }
+}
+.img-cr{
+  width: 40px!important;
+  height: 25px;
+}
+.img-item{
+  max-width: 150px;
+  min-width: 150px!important;
+  height: 100px;
+}
